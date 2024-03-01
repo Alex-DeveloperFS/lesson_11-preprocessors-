@@ -40,7 +40,7 @@
 
 
 
-@mixin for-size($size) {
+/*@mixin for-size($size) {
   @if $size==phone {
     @media (max-width: 375px) {
       @content;
@@ -53,9 +53,10 @@
     }
   }
 }
+*/
 
 
-$breakpoints: (
+/*$breakpoints: (
   "phone": 480px,
   "tablet": 768px,
   "desktop": 1200px,
@@ -74,4 +75,4 @@ $breakpoints: (
     }
   }
 }
-
+*/
