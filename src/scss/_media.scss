@@ -9,10 +9,10 @@
 
   .navbar__link {
     padding: 10px;
-  }
 
-  .navbar__link--first {
-    margin-left: 0;
+    &--first {
+      margin-left: 0;
+    }
   }
 
   .experience__container {
@@ -34,5 +34,4 @@
   .navbar__link--work {
     margin-left: -10px;
   }
-
 }
