@@ -1,0 +1,18 @@
+.video--bg {
+  background-color: $color-bg-container;
+  min-height: 28px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video__iframe {
+  width: 1110px;
+  height: 600px;
+  border: none;
+  margin-top: 0;
+  margin-bottom: 100px;
+}

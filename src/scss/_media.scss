@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .navbar__list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar__link {
+    padding: 10px;
+  }
+
+  .navbar__link--first {
+    margin-left: 0;
+  }
+
+  .experience__container {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .video__iframe {
+    height: 400px;
+  }
+}
+
+@media (max-width: 375px) {
+  .video__iframe {
+    height: 188px;
+    margin-bottom: 100px;
+  }
+
+  .navbar__link--work {
+    margin-left: -10px;
+  }
+
+}

@@ -1,0 +1,24 @@
+.section {
+  min-height: 356px;
+  display: flex;
+  text-align: center;
+}
+
+.about {
+  background-color: $color-bg-about;
+}
+
+.about__title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 112px;
+  margin-bottom: 42px;
+  margin-left: 11px;
+}
+
+.about__description {
+  color: $color-description;
+  line-height: 26.25px;
+  margin-left: 11px;
+  margin-bottom: 91px;
+}
